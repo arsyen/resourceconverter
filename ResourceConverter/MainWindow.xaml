@@ -1,0 +1,18 @@
+﻿<Window x:Class="ResourceConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ResourceConverter"
+        mc:Ignorable="d"
+        Title="Resource Converter" Height="350" Width="586.971">
+    <Grid>
+        <TextBox x:Name="txtFileFrom" HorizontalAlignment="Left" Height="23" Margin="23,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="410"/>
+        <Label x:Name="label" Content="Source File" HorizontalAlignment="Left" Margin="23,63,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Destination File (Input new nonexisting file path)" HorizontalAlignment="Left" Margin="23,117,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFileTo" HorizontalAlignment="Left" Height="23" Margin="23,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="410"/>
+        <Button x:Name="button" Content="Convert" HorizontalAlignment="Left" Margin="23,209,0,0" VerticalAlignment="Top" Width="90" Height="30" Click="btnConvert_Click"/>
+        <Button x:Name="btnChooseSource" Content="Choose" HorizontalAlignment="Left" Margin="450,88,0,0" VerticalAlignment="Top" Width="75" Click="btnChooseSource_Click" />
+
+    </Grid>
+</Window>

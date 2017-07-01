@@ -1,0 +1,14 @@
+/.vs
+/packages/
+/TestResults/
+/ResourceConverter/bin/
+/ResourceConverter/obj/
+
+/ResourceConverter.Core/bin/
+/ResourceConverter.Core/obj/
+
+/ResourceConverter.Services/bin/
+/ResourceConverter.Services/obj/
+
+/ResourceConverter.Tests/bin/
+/ResourceConverter.Tests/obj/
