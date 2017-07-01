@@ -24,9 +24,12 @@ namespace ResourceConverter
         private void btnChooseSource_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Resource files (*.resx)|*.resx";
+
             if (openFileDialog.ShowDialog() == true)
             {
                 txtFileFrom.Text = openFileDialog.FileName;
+                txtFileTo.Text = $"{openFileDialog.FileName}.converted.resx";
             }
         }
 
